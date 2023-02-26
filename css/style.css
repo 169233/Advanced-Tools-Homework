@@ -27,7 +27,7 @@ p {
 }
 
 .primary-link:hover {
-  color: #0a58ca;
+  color: #ffffff;
 }
 
 .navigation-link {
@@ -76,4 +76,21 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .primary-link {
+    display: block;
+    text-align: center;
+  }
 }
